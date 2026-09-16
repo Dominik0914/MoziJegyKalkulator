@@ -1,1 +1,1 @@
-﻿Console.WriteLine("Hello, World!");
+﻿string nev=Console.ReadLine();
