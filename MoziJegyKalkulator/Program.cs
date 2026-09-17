@@ -1,6 +1,9 @@
 ﻿///2.feladat
+Console.WriteLine("Kérem a nevét: ");
 string nev=Console.ReadLine();
+Console.WriteLine("Kérem az életkorát: ");
 int kor = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Van diákigazolványa? (igen/nem): ");
 bool diakigaolvany = true;
 string diakigaolvanyInput = Console.ReadLine();
 if (diakigaolvanyInput == "igen")
@@ -10,7 +13,9 @@ if (diakigaolvanyInput == "igen")
 else
 { diakigaolvany = false; }
 int mozijegy = 2800;
+Console.WriteLine("Kérem a mozijegyek számát: ");
 int mozijegyosz = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Kérem a popcornok számát: ");
 int popcorn = Convert.ToInt32(Console.ReadLine());
 int popcornar = 1500;
 double kedvezmeny = 0.20;
